@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Caveat:wght@400;600;700&family=Montserrat:wght@200;400;600&family=Pacifico&display=swap");
+body, html {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  background-color: rgb(255, 251, 245);
+}
+
+.inputDiv {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.inputDiv div {
+  width: 30%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px 5px gray;
+  background-color: rgb(221, 178, 138);
+}
+.inputDiv div button {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.outputDiv {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.outputDiv div {
+  width: 50%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px 5px gray;
+  background-color: rgb(215, 194, 162);
+}
